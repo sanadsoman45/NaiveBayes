@@ -1,6 +1,6 @@
 import pandas as pd
 def naive_pred_bayes(alt,bar,fri_sat,Hungry,Patrons,Price,Raining,reservation,Type,wait_Estimate):
-    hotels=pd.read_excel("C:\\Users\\RAHUL\\Downloads\\hotel_dataset.xlsx")
+    hotels=pd.read_excel("<File_path>")
     print(hotels.to_string())
     hotels.head(5)
     total_yes=len(hotels[(hotels["Ans"]=="yes")])
